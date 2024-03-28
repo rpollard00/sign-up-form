@@ -1,13 +1,60 @@
 <!doctype html>
 <html lang="en">
+<!-- Photo by <a href="https://unsplash.com/@dnevozhai?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Denys Nevozhai</a> on <a href="https://unsplash.com/photos/lantern-on-the-street-at-nighttime--F3wMFrZ7z0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
 
 <head>
     <title></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="reset.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
 </head>
 
-<body></body>
+<body>
+    <div class="call-to-action">
+        Some text about this website that is good and encourages you to sign up.
+        This is the place you can find the thing that you are looking for. If you
+        cannot then you are not looking for the correct thing.
+    </div>
+    <form action="submit">
+        <fieldset class="main-form">
+            <h2>Let's Do This!</h2>
+            <div class="form-row">
+                <div>
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" id="firstname" required />
+                </div>
+                <div>
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" id="lastname" required />
+                </div>
+            </div>
+            <div class="form-row">
+                <div>
+                    <label for="mail">EMAIL</label>
+                    <input type="email" id="mail" required />
+                </div>
+                <div>
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" required />
+                </div>
+            </div>
+            <div class="form-row">
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" required />
+                </div>
+                <div>
+                    <label for="confirm">CONFIRM PASSWORD</label>
+                    <input type="password" id="password" required />
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="submit-container">
+            <button type="submit">Create Account</button>
+        </fieldset>
+    </form>
+    <div class="login-nav">Already have an account? <a href="">Log in</a></div>
+</body>
 
 </html>

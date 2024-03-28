@@ -1,0 +1,74 @@
+:root {
+    --basePadding: 12px;
+    --bgMidColor: #fafbfc;
+    --bgLightColor: #FFFFFF;
+    --borderColor: #E5E7EB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bgMidColor);
+}
+
+label {
+    font-size: 0.8rem;
+    padding-bottom: 2px;
+}
+
+
+.call-to-action {
+    padding: 30px;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.2rem;
+    padding: var(--basePadding);
+}
+
+form {
+    border: 1px solid red;
+}
+
+input {
+    border: 1px solid var(--borderColor);
+    height: 2lh;
+    padding-left: 6px;
+}
+
+button {
+    padding-inline: calc(4 * var(--basePadding));
+    padding-block: var(--basePadding);
+    border-radius: 6px;
+}
+
+fieldset:first-child {
+    background-color: var(--bgLightColor);
+}
+
+fieldset:nth-child(2) {
+    padding: var(--basePadding);
+}
+
+form>fieldset>div {
+    display: flex;
+}
+
+form>fieldset>div div {
+    display: flex;
+    flex-direction: column;
+    padding: var(--basePadding);
+}
+
+.login-nav {
+    padding: var(--basePadding);
+}
