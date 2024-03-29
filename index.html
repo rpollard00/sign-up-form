@@ -11,50 +11,62 @@
 </head>
 
 <body>
-    <div class="call-to-action">
-        Some text about this website that is good and encourages you to sign up.
-        This is the place you can find the thing that you are looking for. If you
-        cannot then you are not looking for the correct thing.
+    <div class="splash">
+        <div class="logo-anchor">
+            <img class="logo" src="assets/logo.png" alt="A Paper
+                Lantern Logo" />LANTERN
+        </div>
     </div>
-    <form action="submit">
-        <fieldset class="main-form">
-            <h2>Let's Do This!</h2>
-            <div class="form-row">
-                <div>
-                    <label for="firstname">FIRST NAME</label>
-                    <input type="text" id="firstname" required />
+    <div class="container">
+        <div class="call-to-action">
+            Some text about this website that is good and encourages you to sign up.
+            This is the place you can find the thing that you are looking for.
+            <br />
+            <br />
+            You <em>know</em> you want to.
+        </div>
+        <form action="submit">
+            <fieldset class="main-form">
+                <h2>Let's Do This!</h2>
+                <div class="form-row">
+                    <div>
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" id="firstname" required />
+                    </div>
+                    <div>
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" id="lastname" required />
+                    </div>
                 </div>
-                <div>
-                    <label for="lastname">LAST NAME</label>
-                    <input type="text" id="lastname" required />
+                <div class="form-row">
+                    <div>
+                        <label for="mail">EMAIL</label>
+                        <input type="email" id="mail" required />
+                    </div>
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" required />
+                    </div>
                 </div>
-            </div>
-            <div class="form-row">
-                <div>
-                    <label for="mail">EMAIL</label>
-                    <input type="email" id="mail" required />
+                <div class="form-row">
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" required />
+                    </div>
+                    <div>
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="password" required />
+                    </div>
                 </div>
-                <div>
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" id="phone" required />
-                </div>
-            </div>
-            <div class="form-row">
-                <div>
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password" required />
-                </div>
-                <div>
-                    <label for="confirm">CONFIRM PASSWORD</label>
-                    <input type="password" id="password" required />
-                </div>
-            </div>
-        </fieldset>
-        <fieldset class="submit-container">
-            <button type="submit">Create Account</button>
-        </fieldset>
-    </form>
-    <div class="login-nav">Already have an account? <a href="">Log in</a></div>
+            </fieldset>
+            <fieldset class="submit-container">
+                <button type="submit">Create Account</button>
+            </fieldset>
+        </form>
+        <div class="login-nav">
+            Already have an account? <a href="">Log in</a>
+        </div>
+    </div>
 </body>
 
 </html>
