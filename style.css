@@ -38,12 +38,11 @@ em {
     background-size: cover;
 
     flex: 1 1 calc(100vw - var(--formWidth));
-    align-self: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
 
-    align-items: center;
+    align-self: center;
 }
 
 
@@ -60,7 +59,7 @@ em {
 
 .logo-anchor {
     display: flex;
-    flex: 1 1 calc(100vw - var(--formWidth));
+    flex: 1 1 auto;
 
     align-items: center;
     justify-content: center;
@@ -80,6 +79,7 @@ em {
 
 .credit-splash {
     color: var(--borderColor);
+    align-self: center;
 
     margin-top: auto;
 
