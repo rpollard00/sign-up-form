@@ -8,14 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="reset.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 
 <body>
     <div class="splash">
         <div class="logo-anchor">
-            <img class="logo" src="assets/logo.png" alt="A Paper
-                Lantern Logo" />LANTERN
+            <img class="logo" src="assets/logo.png" alt="A Paper Lantern Logo" />
+            LANTERN
         </div>
+        <div class="credit-splash">Photo by Denys Nevozhai on Unsplash</div>
     </div>
     <div class="container">
         <div class="call-to-action">
@@ -25,17 +27,19 @@
             <br />
             You <em>know</em> you want to.
         </div>
-        <form action="submit">
+        <form action="">
             <fieldset class="main-form">
                 <h2>Let's Do This!</h2>
                 <div class="form-row">
                     <div>
                         <label for="firstname">FIRST NAME</label>
                         <input type="text" id="firstname" required />
+                        <span id="firstname-req" class="req"></span>
                     </div>
                     <div>
                         <label for="lastname">LAST NAME</label>
                         <input type="text" id="lastname" required />
+                        <span id="lastname-req" class="req"></span>
                     </div>
                 </div>
                 <div class="form-row">
@@ -55,7 +59,7 @@
                     </div>
                     <div>
                         <label for="confirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="password" required />
+                        <input type="password" id="confirm" required />
                     </div>
                 </div>
             </fieldset>

@@ -92,6 +92,10 @@ video {
     vertical-align: baseline;
 }
 
+:focus {
+    border-color: none;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
